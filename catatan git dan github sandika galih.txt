@@ -1,0 +1,7 @@
+perintah tutorial git
+- git ini (untuk menginisialisasi folder manjadi repository)
+- ls (digunakan untuk melihat lis dari folder atau repository)
+- git status (digunakan untuk melihat status file yang belum dimasukan di git)
+- git add index.html (digunakan untuk upload file baru atau updatetan dari file index.html)
+- git log (untuk mengetahui commit apa saja yang bisa digunakan beserta nomer bashnya)
+- git checkout 7667b -- style.css (digunakan untuk mengembalikan perubahan file style.css sebelum update git commit terakhir)
