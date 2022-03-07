@@ -14,4 +14,24 @@ perintah tutorial git
 
 - git log --all --decorate --oneline --graph (digunakan untuk mengetahui semua branch beserta dengan commit yang sudah dilakukan)
 - alias graph="git log --all --decorate --oneline --graph" adalah untuk membuat alias saat ingin menjalankan perintah git log --all --decorate --oneline --graph cukup dengan menjalankan perintah graph (di laptop saya eror)
-- 
+- git checkout dosen (yaitu memindah branch ke dosen)
+- git checkout master (untuk kembalike branch master)
+
+
+**
+- taruh branch di master (git checkout master)
+- git merge dosen (menggabungkan antara branch master dan dosen)
+- git branch --merged (digunakan untuk mengetahui branch mana yang sudah digabung)
+- git branch -d dosen (digunakan untuk menghapus branch dosen)
+- git merge staff
+- git checkout 44adfc5 (untuk meletakkan head master di commit dengan 7 digit pertama hash "44adfc5")
+
+
+** git remote
+- git clone https://github.com/Muhammadakhlakul/belajar_menghubungkan__git_dan_github.git (digunakan untuk mengcloning repository dari github)
+- git remote (digunakan untuk mengetahui nama remote, biasanya nama defaultnya adalah "origin")
+- git remote -v (digunkan untuk melihat detail dari remote tersebut)
+- git add . (untuk menyimpan semua perubahan ke git)
+- git commit -m "menambhakan komentar tentang perubahan yang dilakukan"
+- git push (digunakan untuk mengupload perubahan dari git lokal ke github)
+- git config --list (digunakan untuk mengetahui pengaturan configurasi github)
