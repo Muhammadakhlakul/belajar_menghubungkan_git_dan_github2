@@ -1,7 +1,17 @@
 perintah tutorial git
-- git ini (untuk menginisialisasi folder manjadi repository)
+- git init (untuk menginisialisasi folder manjadi repository)
 - ls (digunakan untuk melihat lis dari folder atau repository)
 - git status (digunakan untuk melihat status file yang belum dimasukan di git)
 - git add index.html (digunakan untuk upload file baru atau updatetan dari file index.html)
-- git log (untuk mengetahui commit apa saja yang bisa digunakan beserta nomer bashnya)
-- git checkout 7667b -- style.css (digunakan untuk mengembalikan perubahan file style.css sebelum update git commit terakhir)
+- git log (untuk mengetahui commit apa saja yang bisa digunakan/yang sudah dilakukan beserta nomer bashnya)
+- git checkout 7667b -- style.css (digunakan untuk mengembalikan perubahan file style.css sebelum update git commit terakhir, nomer itu adalah nomer commit 5 digit terdepan)
+
+
+**branch
+- git branch (digunakan untuk mengetahui semua branch yang ada)
+- git branch dosen (berarti kita membuat branch dosen)
+- git branch staff (berarti kita membuat branch staff)
+
+- git log --all --decorate --oneline --graph (digunakan untuk mengetahui semua branch beserta dengan commit yang sudah dilakukan)
+- alias graph="git log --all --decorate --oneline --graph" adalah untuk membuat alias saat ingin menjalankan perintah git log --all --decorate --oneline --graph cukup dengan menjalankan perintah graph (di laptop saya eror)
+- 
